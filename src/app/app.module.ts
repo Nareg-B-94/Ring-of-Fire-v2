@@ -17,6 +17,7 @@ import { FormsModule } from '@angular/forms';
 import { GameRuleComponent } from './game/game-rule/game-rule.component';
 import { AngularFireModule } from '@angular/fire/compat';
 import { environment } from '../environments/environment';
+import { PlayerMobileComponent } from './player-mobile/player-mobile.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { environment } from '../environments/environment';
     PlayersComponent,
     AddPlayerDialogComponent,
     GameRuleComponent,
+    PlayerMobileComponent,
   ],
   imports: [
     MatCardModule,
